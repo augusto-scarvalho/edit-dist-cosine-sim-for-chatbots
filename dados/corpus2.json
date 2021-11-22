@@ -1,0 +1,1240 @@
+{
+  "name": "Bot restaurante sujo",
+  "intents": [
+    {
+      "intent": "consultar_preco",
+      "examples": [
+        {
+          "text": "Qual o preço da coca cola?"
+        },
+        {
+          "text": "Quanto custa a taxa de entrega?"
+        },
+        {
+          "text": "Quanto custa a cerveja?"
+        },
+        {
+          "text": "Qual o preço da batara frita?"
+        },
+        {
+          "text": "Por quanto sai o lanche?"
+        },
+        {
+          "text": "Fiquei com dúvida sobre os preços."
+        },
+        {
+          "text": "O refrigerante tá R$5,00 é isso mesmo?"
+        },
+        {
+          "text": "Quanto custa um hamburger?"
+        },
+        {
+          "text": "Essa maionese não tem perigo de salmonela por ter ovo cru? Posso comer tranquilo? Já tive uma intoxicação quando comi a maionese de uma outra lanchonete..."
+        },
+        {
+          "text": "Vocês trocariam uma das marmitas que pedi meia hora atrás?"
+        },
+        {
+          "text": "Gostei do restaurante, muito confortável e aconchegante."
+        },
+        {
+          "text": "O seu atendimento foi muito útil, valeu!"
+        },
+        {
+          "text": "Quanto vocês cobram na entrega?"
+        },
+        {
+          "text": "Quero consultar um preço."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "geral_falar_com_uma_pessoa",
+      "examples": [
+        {
+          "text": "Parabéns, que trabalho lindo! Que Deus abençoe você e a equipe deste restaurante!"
+        },
+        {
+          "text": "Me chama um funcionário pra eu cancelar o pedido."
+        },
+        {
+          "text": "Posso falar com alguém?"
+        },
+        {
+          "text": "Quero conversar com um funcionário."
+        },
+        {
+          "text": "Chama um humano."
+        },
+        {
+          "text": "Não quero mais falar com o robô."
+        },
+        {
+          "text": "Quero falar com um atendente."
+        },
+        {
+          "text": "Quero falar com quem te programou."
+        },
+        {
+          "text": "Chama alguém pra anotar o meu pedido."
+        },
+        {
+          "text": "Não quero mais falar com você."
+        },
+        {
+          "text": "Tem como chamar uma pessoa pra conversar comigo?"
+        },
+        {
+          "text": "Quero falar com o gerente."
+        },
+        {
+          "text": "Falar com uma pessoa."
+        },
+        {
+          "text": "Tem como chamar alguém pra mudar aquilo que pedi?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "geral_reclamar_atendimento",
+      "examples": [
+        {
+          "text": "Olá robô, como vai?"
+        },
+        {
+          "text": "Detestável a comida de vocês."
+        },
+        {
+          "text": "O jantar ficou horrível."
+        },
+        {
+          "text": "A comida estava péssima."
+        },
+        {
+          "text": "Achei uma porcaria."
+        },
+        {
+          "text": "O atendimento foi péssimo."
+        },
+        {
+          "text": "Fui muito mal atendida pelo gerente."
+        },
+        {
+          "text": "Péssimo o atendimento de vocês."
+        },
+        {
+          "text": "Tem lugar pra estacionar perto do restaurante?"
+        },
+        {
+          "text": "Desculpa encomodar, é que eu quero muito trabalhar com vocês. Onde posso deixar meu currículo? Fico no aguardo!"
+        },
+        {
+          "text": "Ei, quero fazer uma reserva de uma mesa pra mais ou menos 6 pessoas. Pode ser?"
+        },
+        {
+          "text": "Atendimento horrível."
+        },
+        {
+          "text": "Não gostei da comida."
+        },
+        {
+          "text": "O garçom foi grosseiro comigo."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "conhecimento_do_bot",
+      "examples": [
+        {
+          "text": "O que você já sabe?"
+        },
+        {
+          "text": "O que você sabe fazer?"
+        },
+        {
+          "text": "Você serve pra quê?"
+        },
+        {
+          "text": "Sobre o que você já conversa?"
+        },
+        {
+          "text": "Você já sabe muita coisa?"
+        },
+        {
+          "text": "O que é que você faz?"
+        },
+        {
+          "text": "Esse é o pior restaurante em que eu já comi. Pelo amor de deus!"
+        },
+        {
+          "text": "Funciona das das 17:00 às 20:00, é isso mesmo?"
+        },
+        {
+          "text": "Você é um robô? Pra o que que você serve?"
+        },
+        {
+          "text": "Gostaria de fazer uma reserva no seu restaurante. Será que você pode me ajudar?"
+        },
+        {
+          "text": "Quais perguntas você já consegue responder?"
+        },
+        {
+          "text": "Como consigo te usar?"
+        },
+        {
+          "text": "Com o que você já sabe lidar?"
+        },
+        {
+          "text": "Como você pode me ajudar?"
+        },
+        {
+          "text": "Do quê você já consegue conversar?"
+        },
+        {
+          "text": "Você já sabe falar do que?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fazer_pedido",
+      "examples": [
+        {
+          "text": "Me traga o melhor prato da casa. Obrigado."
+        },
+        {
+          "text": "Trás pra mim uma cachaça."
+        },
+        {
+          "text": "Me trás uma torta, por favor."
+        },
+        {
+          "text": "Como eu faço o meu pedido?"
+        },
+        {
+          "text": "Vou querer um hamburger e um refrigerante."
+        },
+        {
+          "text": "Quero fazer um pedido."
+        },
+        {
+          "text": "Quero uma marmita pra 5 pessoas."
+        },
+        {
+          "text": "Quero pedir o frango assado."
+        },
+        {
+          "text": "Anota o meu pedido aí."
+        },
+        {
+          "text": "Tem como anotar meu pedido?"
+        },
+        {
+          "text": "Gostaria de uma feijoada pra 3."
+        },
+        {
+          "text": "Pode trazer uma picanha no ponto."
+        },
+        {
+          "text": "Quero um pão na chapa."
+        },
+        {
+          "text": "Pode trazer 3 bebidas pra gente."
+        },
+        {
+          "text": "Gostaria de um misto quente."
+        },
+        {
+          "text": "Oi. Como faço para pedir algo?"
+        },
+        {
+          "text": "Ei, me vê um sanduíche com carne."
+        },
+        {
+          "text": "Gostaria de fazer um pedido. Pode ser?"
+        },
+        {
+          "text": "Oi, eu gostaria de fazer um pedido."
+        },
+        {
+          "text": "Fazer um pedido agora."
+        },
+        {
+          "text": "Quero fazer um pedido pra já."
+        },
+        {
+          "text": "Boa noite. Quando é que vai ter mais um restaurante aqui na baixada santista? Previsões, aqui a conversa é que terá na Av. Conselheiro Nebias, está certo isso? Agradeço se responderem."
+        },
+        {
+          "text": "Infelizmente a comida estava horrível."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pedir_recomendacao",
+      "examples": [
+        {
+          "text": "O que tem de mais gostoso pra comer aí?"
+        },
+        {
+          "text": "Você me recomenda algum prato?"
+        },
+        {
+          "text": "O que você me sugere?"
+        },
+        {
+          "text": "Me faça uma recomendação."
+        },
+        {
+          "text": "Quero uma sugestão de prato."
+        },
+        {
+          "text": "Gosto de lanches, o que você sugere?"
+        },
+        {
+          "text": "Você também dá sugestão?"
+        },
+        {
+          "text": "Qual comida você me sugere no almoço?"
+        },
+        {
+          "text": "Qual dos pratos você me sugere?"
+        },
+        {
+          "text": "Qual prato você me sugere?"
+        },
+        {
+          "text": "Você me sugere qual dos pratos?"
+        },
+        {
+          "text": "Qual comida você me sugere?"
+        },
+        {
+          "text": "Quais pratos vocês recomendam?"
+        },
+        {
+          "text": "O que você recomenda?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "reservar_mesa",
+      "examples": [
+        {
+          "text": "Reserve duas mesas."
+        },
+        {
+          "text": "Como eu reservo uma mesa?"
+        },
+        {
+          "text": "Vou aí com mais 7 pessoas pra uma festa de aniversário. O que você me sugere? Preciso reservar?"
+        },
+        {
+          "text": "Quero fazer uma reserva pra 3 pessoas."
+        },
+        {
+          "text": "Vocês tem mesa pra 10 pessoas?"
+        },
+        {
+          "text": "Na propaganda é maravilhoso esse prato. Quando chega, o bacon carvão chegava a ficar amargo na boca. Esse restaurante está sempre decepcionando..."
+        },
+        {
+          "text": "Reserve 3 mesas."
+        },
+        {
+          "text": "Quero ir jantar aí com meus colegas. Precisa de reserva?"
+        },
+        {
+          "text": "Como faço pra reservar umas mesas pro happy hour?"
+        },
+        {
+          "text": "Dá pra fazer reservas por aqui?"
+        },
+        {
+          "text": "Quero uma mesa pra 10 pessoas no domingo."
+        },
+        {
+          "text": "Como reservo uma data?"
+        },
+        {
+          "text": "Como faz pra reservar uma mesa?"
+        },
+        {
+          "text": "Vou ir aí no meu aniversário e queria reservar uns lugares."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "consultar_endereco",
+      "examples": [
+        {
+          "text": "Cheguei ao restaurante no barra shopping Rio de Janeiro às 23:01, estava lotado mas havia uma mesa vazia e a atendente se recusou a me receber!!! Perderam eu e meu marido como cliente! Não indico a ninguém péssimo atendimento!"
+        },
+        {
+          "text": "Quais unidades de vocês funcionam durante feriados?"
+        },
+        {
+          "text": "Onde fica o restaurante?"
+        },
+        {
+          "text": "Quero pedir umas duas bebidas antes do lanche."
+        },
+        {
+          "text": "Já fui na unidade Santo Amaro e sempre fui muito bem atendida, lanches maravilhosos, só não é perfeito porq nao tem no shopping perto da minha casa"
+        },
+        {
+          "text": "Hoje tem preço happy hour?"
+        },
+        {
+          "text": "Onde vocês ficam localizados?"
+        },
+        {
+          "text": "Em qual parte da cidade vocês ficam? Vlw."
+        },
+        {
+          "text": "O restaurante fica em qual bairro?"
+        },
+        {
+          "text": "Consultar o endereço."
+        },
+        {
+          "text": "Pode me indicar o caminho pra chegar no restaurante?"
+        },
+        {
+          "text": "Como vejo o local do restaurante?"
+        },
+        {
+          "text": "Onde fica a loja de vocês?"
+        },
+        {
+          "text": "Qual o endereço de onde saí a comida?"
+        },
+        {
+          "text": "Onde é o estabelecimento?"
+        },
+        {
+          "text": "Me passa o seu endereço."
+        },
+        {
+          "text": "Onde acho a franquia mais próximas?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "consultar_funcionamento",
+      "examples": [
+        {
+          "text": "A partir de que horas aqui abre?"
+        },
+        {
+          "text": "Até que horas vocês entregam?"
+        },
+        {
+          "text": "Vocês entregam comida à noite?"
+        },
+        {
+          "text": "Vocês abrem final de semana?"
+        },
+        {
+          "text": "O restaurante tá aberto até qual horário?"
+        },
+        {
+          "text": "Vai funcionar até qual horário?"
+        },
+        {
+          "text": "Aqui fica aberto até qual horário?"
+        },
+        {
+          "text": "Até que horas vocês funcionam?"
+        },
+        {
+          "text": "Vocês ficam abertos até que horário?"
+        },
+        {
+          "text": "Vocês abrem no feriado?"
+        },
+        {
+          "text": "Olá, boa noite. Eu moro bem longe do restaurante de vocês. Será que o entregador consegue chegar até sete horas da noite? Precisamos do pedido pra festa do meu filho. Obrigada!"
+        },
+        {
+          "text": "Eu quero saber com quem eu tô falando antes de fazer o pedido. Pode ser?"
+        },
+        {
+          "text": "Eu quero o cancelamento se vocês não chegarem aqui até 17h."
+        },
+        {
+          "text": "Terça-feira e quarta são ótimos dias pra ir aí. Vocês tem alguma promoção?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "geral_com_quem_eu_falo",
+      "examples": [
+        {
+          "text": "Estou falando com um computador?"
+        },
+        {
+          "text": "Pode me dizer com quem eu falo?"
+        },
+        {
+          "text": "Com quem falei?"
+        },
+        {
+          "text": "Oi, fala comigo robô. Quero pedir minha marmita logo."
+        },
+        {
+          "text": "Qual a sua graça?"
+        },
+        {
+          "text": "Como se chama?"
+        },
+        {
+          "text": "Você tem um nome?"
+        },
+        {
+          "text": "Qual o seu nome de verdade?"
+        },
+        {
+          "text": "Boa noite, ligando no numero de vcs diz que o telefone não existe. É possível fazer reserva? Obrigado!"
+        },
+        {
+          "text": "É com o robô mesmo que eu faço o cancelamento?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Estou falando com um humano?"
+        },
+        {
+          "text": "Você é um robô?"
+        },
+        {
+          "text": "Você é um humano?"
+        },
+        {
+          "text": "O que é que o robô me sugere?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "consultar_cardapio",
+      "examples": [
+        {
+          "text": "Quero ver o cardápio."
+        },
+        {
+          "text": "Quais pratos vocês vendem?"
+        },
+        {
+          "text": "Qual o prato do dia?"
+        },
+        {
+          "text": "Tem alguma bebida sem Álcool?"
+        },
+        {
+          "text": "Quais as entradas tem pra pedir?"
+        },
+        {
+          "text": "O que tem pra comer?"
+        },
+        {
+          "text": "Quais as bebidas vocês vendem?"
+        },
+        {
+          "text": "Como vejo o menu?"
+        },
+        {
+          "text": "Consultar o cardápio."
+        },
+        {
+          "text": "Oi. Tem como me mostrar as opções de marmita?"
+        },
+        {
+          "text": "Onde é que vocês estão localizados em SP?"
+        },
+        {
+          "text": "Bom dia. Tenho uma dúvida antes de fazer o pedido. Vocês já tem um cardápio pra pessoas vegan? Tenho alguns problemas e não posso comer carne, as vezes tenho que pedir pra trocar o prato por causa disso. Por isso estou perguntando. Obrigado!"
+        },
+        {
+          "text": "Vocês tem o preço dos lanches no cardápio? Vlw!"
+        },
+        {
+          "text": "Até que horário funciona o happy hour de vocês? Tem alguma diferença nos preços do menu?"
+        },
+        {
+          "text": "Misericórdia! Demoram demais até pra trazer o cardápio."
+        },
+        {
+          "text": "Qual tipo de comida tem aqui?"
+        },
+        {
+          "text": "O que tem pra comer nesse restaurante?"
+        },
+        {
+          "text": "Quais comidas vocês vendem aqui?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "geral_agradecimento",
+      "examples": [
+        {
+          "text": "Valeu!"
+        },
+        {
+          "text": "Fico agradecido."
+        },
+        {
+          "text": "Agradeço o atendimento."
+        },
+        {
+          "text": "Muito obrigado!"
+        },
+        {
+          "text": "Fico grata."
+        },
+        {
+          "text": "Tá bem, obrigado."
+        },
+        {
+          "text": "Muito obg!"
+        },
+        {
+          "text": "Muito obrigada por avisar!"
+        },
+        {
+          "text": "Olá, obrigado pela entrega."
+        },
+        {
+          "text": "Obrigado por tirar a dúvida."
+        },
+        {
+          "text": "Muito obrigado por ajudar."
+        },
+        {
+          "text": "Muito obrigada pela ajuda."
+        },
+        {
+          "text": "Muito obrigado por me ajudar."
+        },
+        {
+          "text": "Muito obrigada por me ajudar."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cancelar_pedido",
+      "examples": [
+        {
+          "text": "Não quero mais a minha comida."
+        },
+        {
+          "text": "Como faço pra cancelar o delivery?"
+        },
+        {
+          "text": "Cancelar pedido."
+        },
+        {
+          "text": "Quero cancelar."
+        },
+        {
+          "text": "Cansei de esperar, pode cancelar o meu pedido."
+        },
+        {
+          "text": "Pode cancelar o meu pedido."
+        },
+        {
+          "text": "Cancela pra mim o prato que pedi."
+        },
+        {
+          "text": "Desisto da comida."
+        },
+        {
+          "text": "Olá. Fiz um pedido e gostaria que ele fosse cancelado."
+        },
+        {
+          "text": "É possível desistir de uma compra que fiz?"
+        },
+        {
+          "text": "Não quero mais. Obrigada."
+        },
+        {
+          "text": "Esse happy vale para as outras unidades desse restaurante?"
+        },
+        {
+          "text": "Essa porcaria de robô não serve pra nada. Restaurante porcaria. Fiquei esperando um tempão, fui maltratada pelos funcionários e ainda recebi o pedido errado. Pode fechar!"
+        },
+        {
+          "text": "Vocês vão alterar o pedido ou vou ter que cancelar?"
+        },
+        {
+          "text": "Olá, tem como reservar as mesas? E o aniversariante paga?"
+        },
+        {
+          "text": "Vc fecha que horas sexta?"
+        },
+        {
+          "text": "Quero desistir de um pedido."
+        },
+        {
+          "text": "Cancela o meu almoço."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "geral_despedida",
+      "examples": [
+        {
+          "text": "Adeus."
+        },
+        {
+          "text": "Para as lojas em que estão colocando totens para pedidos... uma sugestão: acrescentem no software oportunidade do cliente escolher o ponto da carne! Até mais!"
+        },
+        {
+          "text": "Acho que deveria ter um acompanhamento. Tá certo que o Palmito é caro mas podiam colocar um algo a mais."
+        },
+        {
+          "text": "Adorei a sopa, estava muito boa."
+        },
+        {
+          "text": "Até quando vou ficar esperando?"
+        },
+        {
+          "text": "Flw"
+        },
+        {
+          "text": "Tchau."
+        },
+        {
+          "text": "Até mais."
+        },
+        {
+          "text": "Até breve."
+        },
+        {
+          "text": "Até a próxima."
+        },
+        {
+          "text": "Cyao"
+        },
+        {
+          "text": "Fui"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Falou"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "alterar_pedido",
+      "examples": [
+        {
+          "text": "Quero fazer a mudança do meu prato."
+        },
+        {
+          "text": "Já tem mais de 50 minutos que pedi minha comida e não chega. Se continuar assim vou pedir em outro restaurante."
+        },
+        {
+          "text": "Como mudo um dos pratos que escolhi no pedido?"
+        },
+        {
+          "text": "Boa tarde. Meu nome é Michel. Comprei uma marmita agora pouco no restaurante de vocês, mas lembrei que eu não estou podendo comer frutos do mar por recomendações médicas. Gostaria de fazer uma troca dessa marmita por uma outra que está no cardápio de vocês, pode ser? Obrigado!"
+        },
+        {
+          "text": "Oi. Como eu mudo a minha comida?"
+        },
+        {
+          "text": "Como mudo o prato que escolhi no pedido?"
+        },
+        {
+          "text": "Não gosto de tomate."
+        },
+        {
+          "text": "O melhor Hambúrguer do mundo!"
+        },
+        {
+          "text": "Quero mudar algumas coisas do meu pedido."
+        },
+        {
+          "text": "Preciso ligar aí pra alterar meu pedido?"
+        },
+        {
+          "text": "Posso fazer uma alteração no que pedi?"
+        },
+        {
+          "text": "Alterar o pedido."
+        },
+        {
+          "text": "Pedi um prato e queria alterar o pedido."
+        },
+        {
+          "text": "Tem como alterar o que já pedi?"
+        },
+        {
+          "text": "Tem como incluir mais itens no pedido que fiz?"
+        },
+        {
+          "text": "Fiz um pedido e gostaria de alterar alguns itens."
+        },
+        {
+          "text": "Tem como alterar o meu pedido por aqui? Obrigado."
+        },
+        {
+          "text": "Boa tarde. Tem como trocar meu pedido?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "rastrear_pedido",
+      "examples": [
+        {
+          "text": "Cade o meu pedido?"
+        },
+        {
+          "text": "Quero ver onde está o meu pedido."
+        },
+        {
+          "text": "Quando é que chega o meu almoço?"
+        },
+        {
+          "text": "Quando chega a minha janta?"
+        },
+        {
+          "text": "Quero saber o status do meu pedido."
+        },
+        {
+          "text": "Meu pedido vai chegar qual horas?"
+        },
+        {
+          "text": "O entregador ainda está longe?"
+        },
+        {
+          "text": "Meu pedido ainda vai demorar muito até sair?"
+        },
+        {
+          "text": "Quando minha comida vai chegar?"
+        },
+        {
+          "text": "Demora muito pra comida chegar?"
+        },
+        {
+          "text": "Qual horário o meu pedido sai pra entrega?"
+        },
+        {
+          "text": "Vai demorar muito pro meu pedido chegar?"
+        },
+        {
+          "text": "Depois da última visita não sei se volto mais, as porções de alguns pratos vieram menores do que o esperado, qualidade e apresentação de alguns pratos não era das melhores. Quando peço pelo delivery, o entregador sempre chega atrasado. Tristeza pura..."
+        },
+        {
+          "text": "Dá tempo de mudar meu pedido antes do motoqueiro sair pra entregar?"
+        },
+        {
+          "text": "Você sabe me dizer se na entrega aceita vale refeição?"
+        },
+        {
+          "text": "Maravilhosa a cerveja. Mas da proxima vez vou pedir pra colocarem um pouco menos de gelo, tudo bem? Obrigado!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "geral_saudacao",
+      "examples": [
+        {
+          "text": "O lanche estava excelente. Parabéns."
+        },
+        {
+          "text": "Me de alguma sugestão de prato pra eu pedir?"
+        },
+        {
+          "text": "Oi. Estive aí por 3 vezes e não há consistência nem no atendimento, nem no preparo dos pratos."
+        },
+        {
+          "text": "Olá."
+        },
+        {
+          "text": "Olá, tudo bem?"
+        },
+        {
+          "text": "Oiê."
+        },
+        {
+          "text": "Oi, boa noite."
+        },
+        {
+          "text": "Olá, bom dia."
+        },
+        {
+          "text": "Oi, tudo bem com você?"
+        },
+        {
+          "text": "E ae!"
+        },
+        {
+          "text": "Olá, vc tá aí?"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "Oi."
+        },
+        {
+          "text": "Oie, fala comigo."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "geral_elogiar",
+      "examples": [
+        {
+          "text": "Nossa, gostei bastante de comer aí."
+        },
+        {
+          "text": "Gostei bastante da comida."
+        },
+        {
+          "text": "O almoço estava saboroso."
+        },
+        {
+          "text": "Muito bom."
+        },
+        {
+          "text": "Serviço excelente."
+        },
+        {
+          "text": "Vocês estão de parabéns!"
+        },
+        {
+          "text": "Parabéns pelo atendimento!"
+        },
+        {
+          "text": "Gostaria de deixar registrado que, na tarde de ontem, uma cena muito muito especial, aqui na unidade de São José dos Pinhais, quando uma senhora estava lanchando e de repente uma cena de pânico tomou conta. A senhora havia engasgado e todos correram a chamar os bombeiros do shopping ao lado, quando um funcionário sai de traz do balcão e faz uma manobra conhecida que proporciona a volta da respiração da senhora. Fico muito feliz em saber que o restaurante treina seus funcionários. Quando da chegada dos bombeiros o cenário já estava mais harmonico. Parabéns. Além do ótimo hambúrguer tem uma turma de ouro!"
+        },
+        {
+          "text": "Meu pedido já deveria ter chegado."
+        },
+        {
+          "text": "Vocês estão de parabéns. A minha entrega demorou horrores. Tive péssimo atendimento."
+        },
+        {
+          "text": "Olá. Depois de ir comer aí diversas vezes e sair extremamente satisfeito, gostaria de dar meus mais sinceros parabéns para toda a equipe do restaurante pelo maravilhoso e excelente trabalho de ação social e pela comida que nunca deixa a desejar! Um grande abraço A todos!"
+        },
+        {
+          "text": "É só elogiar pra começarem a fazer besteira..."
+        },
+        {
+          "text": "O restaurante tem um ótimo atendimento."
+        },
+        {
+          "text": "Muito bom o atendimento."
+        },
+        {
+          "text": "Comida maravilhosa."
+        },
+        {
+          "text": "A unidade do shopping está de parabéns."
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "refeição",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "lanche",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "café da manhã",
+          "synonyms": [
+            "desjejum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "almoço",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jantar",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bebidas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cachaça",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vinho",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bebida",
+          "synonyms": [
+            "bebidas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "água",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "refrigerante",
+          "synonyms": [
+            "coca-cola",
+            "coca",
+            "guaraná",
+            "tubaina"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cerveja",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "corpo_funcional",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "recepcionista",
+          "synonyms": [
+            "telefonista"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "garçom",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "entregador",
+          "synonyms": [
+            "motoqueiro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cozinheiro",
+          "synonyms": [
+            "chefe",
+            "chef"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pratos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "lanche",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hot-dog",
+          "synonyms": [
+            "hotdog",
+            "cachorro-quente",
+            "cachorro quente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "torta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hamburger",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carne",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sanduíce",
+          "synonyms": [
+            "sanduba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "prato",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "ea0c5638-8fff-404b-9646-6a3c51cd92e4",
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1572659525956",
+      "context": {
+        "contador_intencoes": "<? $contador_intencoes +1 ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1572659525956"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1572659658232"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_5_1572659494902",
+      "conditions": "true",
+      "dialog_node": "node_7_1572659527376",
+      "previous_sibling": "node_10_1572659525956"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $contador_intencoes+1 ?>ª - <? intents[$contador_intencoes].intent ?> - <? T(String).format('%.8f', (intents[$contador_intencoes].confidence*100)) ?>%"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1572659494902",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "$contador_intencoes < 10",
+      "dialog_node": "node_10_1572659525956"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "contador_intencoes": 0
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1572659494902",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Confiança abaixo dos 20%."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_5_1572659494902"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual a sua dúvida? :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "workspace_id": "ea0c5638-8fff-404b-9646-6a3c51cd92e4",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
