@@ -5,14 +5,14 @@ In this project, I used editing distance (levenshtein) and semantic distance (co
 
 # Used datasets
 
-New of the Brazilian Newspaper
+New of the Brazilian Newspaper<br />
 https://www.kaggle.com/marlesson/news-of-the-site-folhauol
 
-Tweets about food, recipes and restaurants
+Tweets about food, recipes and restaurants<br />
 https://developer.twitter.com/en/docs/tutorials/stream-tweets-in-real-time
 
 
 # Chatbot training corpora
 
-Bot restaurante - Watson Assistant
+Bot restaurante - Watson Assistant<br />
 ./data/corpus*.json
